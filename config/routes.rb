@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'sessions/new'
-  get 'sessions/create'
+  post 'sessions/create'
   get 'applicants/new'
   post 'applicants/create'
   devise_for :users
